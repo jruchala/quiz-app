@@ -51,6 +51,32 @@
     <input type="submit" value="Start" class="button" id="start" onkeydown="if(event.keyCode=="13")$('#start').trigger('click');">
   </div>
 
+  <div class="answerResult" id="correct">
+    <h1>That's Right! Cheers!<h1>
+    <input type="submit" value="Continue" class="continue">
+  </div>
+
+  <div class="answerResult" id="incorrect">
+    <h1>Ooh, Sorry!</h1>
+    <input type="submit" value="Continue" class="continue">
+  </div>
+
+  <div id="end">
+    <h1>Congratulations on completing the wine trivia quiz.</h1>
+    <input onclick="reloadPage()" value="Try Again!" class="button" id="retake">
+  </div>
+
+  <div id="progress">
+    <div class="progressUnanswered" id="glass1"><img src="./images/empty_wine_glass.jpg"></div>
+    <div class="progressUnanswered" id="glass2"><img src="./images/empty_wine_glass.jpg"></div>
+    <div class="progressUnanswered" id="glass3"><img src="./images/empty_wine_glass.jpg"></div>
+    <div class="progressUnanswered" id="glass4"><img src="./images/empty_wine_glass.jpg"></div>
+    <div class="progressUnanswered" id="glass5"><img src="./images/empty_wine_glass.jpg"></div>
+  </div>
+  <div id="submitButton">
+    <img src="./images/arrow.jpg" id="arrow">
+  </div>
+
 
 </body>
 </html>

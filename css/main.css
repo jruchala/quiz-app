@@ -50,9 +50,97 @@ body {
   color: white;
   text-align: center;
   padding: 15px 50px 15px 45px;
-  border-radius: 30px;
   float: center;
   margin-left: 145px;
   border: none;
   width: 200px;
 }
+
+.answerResult {
+  background-color: yellow;
+  width: 66%;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 5;
+  color: #DA695D;
+  display: block;
+  top: 50px;
+  height: 250px;
+  text-align: center;
+  padding: 100px;
+  opacity: .95;
+}
+
+.continue {
+  background-color: #445155;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 15px 50px 15px 45px;
+  float: center;
+  margin-top: 50px;
+  margin-left: 0px;
+  width: 200px;
+}
+
+#correct {
+  display: inline-block;
+  display: none;
+}
+
+#incorrect {
+  display: inline-block;
+  display: none;
+}
+
+#end {
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: #DA695D;
+  top: 100px;
+  height: 350px;
+  text-align: center;
+  z-index: 6;
+  display: block;
+}
+
+#retake {
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 50px;
+  width: 300px;
+}
+
+#progress {
+  position: relative;
+  display: inline-block;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.progressUnanswered {
+  position: relative;
+  display: inline-block;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+
+
+
+
+
+
+
