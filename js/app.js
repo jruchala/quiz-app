@@ -114,6 +114,7 @@ function q5Clear(){
 function checkAnswer(question, answer) {
   if (question == "1" && answer == "Cabernet Sauvignon"){
     q1Clear();
+    score ++;
     $('#correct').css({'display':'inline-block'});
   }
   else if (question == "1" && answer != "Cabernet Sauvignon"){
@@ -122,7 +123,8 @@ function checkAnswer(question, answer) {
   }
   else if (question == "2" && answer == "Sangiovese"){
     q2Clear();
-    $('.#correct').css({'display':'inline-block'});
+    score ++;
+    $('#correct').css({'display':'inline-block'});
   }
   else if (question == "2" && answer != "Sangiovese"){
     q2Clear();
@@ -130,7 +132,8 @@ function checkAnswer(question, answer) {
   }
   else if (question == "3" && answer == "Spain"){
     q3Clear();
-    $('.#correct').css({'display':'inline-block'});
+    score ++;
+    $('#correct').css({'display':'inline-block'});
   }
   else if (question == "3" && answer != "Spain"){
     q3Clear();
@@ -138,7 +141,8 @@ function checkAnswer(question, answer) {
   }
   else if (question == "4" && answer == "Croatia"){
     q4Clear();
-    $('.#correct').css({'display':'inline-block'});
+    score ++;
+    $('#correct').css({'display':'inline-block'});
   }
   else if (question == "4" && answer != "Croatia"){
     q4Clear();
@@ -146,7 +150,8 @@ function checkAnswer(question, answer) {
   }
   else if (question == "5" && answer == "Italy"){
     q5Clear();
-    $('.#correct').css({'display':'inline-block'});
+    score ++;
+    $('#correct').css({'display':'inline-block'});
   }
   else if (question == "5" && answer != "Italy"){
     q5Clear();
