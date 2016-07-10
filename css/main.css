@@ -5,6 +5,14 @@ body {
   height: 700px;
 }
 
+.headline h1 {
+  text-align: center;
+  text-transform: uppercase;
+  height: 25px;
+  color: red;
+  display: block;
+}
+
 #questions {
   width: 60%;
   margin-left: auto;
@@ -15,6 +23,7 @@ body {
   background-color: #455256;
   float: center;
   height: 100px;
+  display: none;
   /*opacity: 0;*/
 }
 
@@ -65,7 +74,7 @@ body {
   position: relative;
   z-index: 5;
   color: #DA695D;
-  display: block;
+  display: none;
   top: 50px;
   height: 250px;
   text-align: center;
@@ -106,7 +115,7 @@ body {
   height: 350px;
   text-align: center;
   z-index: 6;
-  display: block;
+  display: none;
 }
 
 #retake {
@@ -120,9 +129,9 @@ body {
 
 #progress {
   position: relative;
-  display: inline-block;
+  display: none;
   float: center;
-  margin-left: auto;
+  margin-left: 150px;
   margin-right: auto;
 
 }
@@ -132,7 +141,7 @@ body {
   float: center;
   margin-left: auto;
   margin-right: auto;
-  
+  display: none;
 
 
 }
@@ -143,7 +152,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  display: block;
+  display: none;
   padding-left: 360px;
   padding-right: 150px;
   -webkit-border-radius: 65px;
@@ -179,11 +188,11 @@ body {
   display: inline-block;
   width: 200px;
   height: 130px;
-  margin: -1150px 0px 0px 1045px;
+  margin: -420px 0px 0px 1045px;
   background-color: #ff66ff;
   position: relative;
   opacity: .75;
-  /*display: none;*/
+  display: none;
 }
 
 #submitButton:hover {
