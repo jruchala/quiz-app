@@ -46,7 +46,7 @@ function q1Clear(){
 function q2Appear(){
   $('#questions').show();
   $('#secondQuestion').show();
-  $('#progress').show();
+  //$('#progress').show();
   $('#glass2').show();
   $('#q2').show();
   $('#submitButton').show();
@@ -109,6 +109,7 @@ function q5Clear(){
   $('#fifthQuestion').hide();
   $('#q5').hide();
   $('.answer').removeClass('selectedAnswer');
+  $('goodbyeMessage').show();
 }
 
 function checkAnswer(question, answer) {
@@ -180,7 +181,7 @@ $(".continue").click(function(){
 
   var progressPercent = ((5 - ($('.unAnswered').length))/5) * 100;
   var progressUpdate = "<br>" + progressPercent + "% Complete";
-  var goodbyeMessage = "You got " + (5 - $('.wrongAnswer').length) + " out of 5 quesitons right."
+  var goodbyeMessage = "You got " + score + " out of 5 quesitons right."
 
   $('#progressUpdate').empty().append(progressUpdate);
 
@@ -205,8 +206,10 @@ $(".continue").click(function(){
     q5Appear();
   }
 
+
   else {
-    $('#endPage').css({'display':'block'});
+    $('#end').css({'display':'block'});
+    $('#end').append(goodbyeMessage);
   }
 
 });

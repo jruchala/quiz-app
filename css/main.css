@@ -129,15 +129,19 @@ body {
 
 #progress {
   position: relative;
+  display: inline-block;
   display: none;
   float: center;
+  width: 70px;
+  height: 500px;
   margin-left: 150px;
   margin-right: auto;
+  border: 1px solid red;
 
 }
 .progressUnanswered {
   position: relative;
-  display: inline-block;
+  display: block;
   float: center;
   margin-left: auto;
   margin-right: auto;
@@ -188,7 +192,7 @@ body {
   display: inline-block;
   width: 200px;
   height: 130px;
-  margin: -420px 0px 0px 1045px;
+  margin: -692px 0px 0px 1045px;
   background-color: #ff66ff;
   position: relative;
   opacity: .75;
